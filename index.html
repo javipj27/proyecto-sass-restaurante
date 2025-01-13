@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Restaurante con sass</title>
 </head>
+
 <body>
     <!--header-->
     <header class="header">
@@ -29,5 +35,94 @@
         </div>
     </header>
     <!--fin del header-->
+
+    <main>
+        <!--acerca de-->
+        <section class="about-us">
+            <div class="about-us-left">
+                <img src="assets/about-us-img.png" alt="imagen izquierda">
+            </div>
+            <div class="about-us-right">
+                <h1 class="main-heading">Acerca de</h1>
+                <h3 class="sub-heading">Introduccion a MiniBoti</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                </div>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quia, et, atque voluptate assumenda
+                    molestias aliquid eligendi deleniti quam facilis deserunt debitis temporibus sequi. Voluptas
+                    quibusdam perferendis debitis nulla maiores!
+                </p>
+                <div class="stars">
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                    <i class="fa-solid fa-star star"></i>
+                </div>
+                <button type="button" class="main-btn">Leer mas...</button>
+            </div>
+
+        </section>
+        <!--Fin acerca de-->
+
+        <!--Seccion galeria-->
+        <section class="galerry">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <div class="card-overlay">
+                        <h1 class="card-overlay-heading">Fajita</h1>
+                        <p class="card-overlay-paragraph">Precio: 10.00€</p>
+                        <button type="button" class="card-overlay-btn">Pedir Ahora</button>
+                    </div>
+                    <img src="assets/gallery-img-1.jpeg" alt="food1" class="card-img">
+                </div>
+                <div class="card">
+                    <div class="card-overlay">
+                        <h1 class="card-overlay-heading">Pancakes</h1>
+                        <p class="card-overlay-paragraph">Precio: 12.00€</p>
+                        <button type="button" class="card-overlay-btn">Pedir Ahora</button>
+                    </div>
+                    <img src="assets/gallery-img-2.jpeg" alt="food2" class="card-img">
+                </div>
+                <div class="card">
+                    <div class="card-overlay">
+                        <h1 class="card-overlay-heading">Pizza</h1>
+                        <p class="card-overlay-paragraph">Precio: 11.50€</p>
+                        <button type="button" class="card-overlay-btn">Pedir Ahora</button>
+                    </div>
+                    <img src="assets/gallery-img-3.jpeg" alt="food3" class="card-img">
+                </div>
+                <div class="card">
+                    <div class="card-overlay">
+                        <h1 class="card-overlay-heading">Salmon</h1>
+                        <p class="card-overlay-paragraph">Precio: 13.00€</p>
+                        <button type="button" class="card-overlay-btn">Pedir Ahora</button>
+                    </div>
+                    <img src="assets/gallery-img-4.jpeg" alt="food4" class="card-img">
+                </div>
+                <div class="card">
+                    <div class="card-overlay">
+                        <h1 class="card-overlay-heading">Tostá de aguacate y queso fresco</h1>
+                        <p class="card-overlay-paragraph">Precio: 18.00€</p>
+                        <button type="button" class="card-overlay-btn">Pedir Ahora</button>
+                    </div>
+                    <img src="assets/gallery-img-5.jpeg" alt="food5" class="card-img">
+                </div>
+                <div class="card">
+                    <div class="card-overlay">
+                        <h1 class="card-overlay-heading">Costillar BBQ</h1>
+                        <p class="card-overlay-paragraph">Precio: 5.00€</p>
+                        <button type="button" class="card-overlay-btn">Pedir Ahora</button>
+                    </div>
+                    <img src="assets/gallery-img-6.jpeg" alt="food6" class="card-img">
+                </div>
+            </div>
+
+        </section>
+        <!--Fin de galeria-->
+    </main>
+
 </body>
+
 </html>
