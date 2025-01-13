@@ -20,3 +20,10 @@ $font-nunito:"Nunito", sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+@mixin centering($topValue){
+    position: absolute;
+    top: $topValue;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

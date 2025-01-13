@@ -14,12 +14,13 @@ body{
     background-size: cover;
     position: relative;
     .brand{
-        position: absolute;
-        top: 15%;
-        left: 50%;
         color: $color-white;
-        transform: translate(-50%,-50%);
+        @include centering(15%);
         display: flex;
         align-items: center;
+    }
+    &-banner{
+        text-align: center;
+        @include centering(50%);
     }
 }
