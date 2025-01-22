@@ -9,14 +9,44 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-        rel="stylesheet">
+    <linkhref="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Restaurante con sass</title>
 </head>
 
 <body>
+    <!--navbar-->
+    <nav class="navbar">
+        <input type="checkbox" name="checkbox" id="check" class="checkbox" hidden>
+        <div class="hamburguer-menu">
+            <label for="check" class="menu">
+                <div class="menu-line menu-line-1"></div>
+                <div class="menu-line menu-line-2"></div>
+                <div class="menu-line menu-line-3"></div>
+            </label>
+        </div>
+        <div class="navbar-navigation">
+            <div class="navbar-navigation-left">
+                <img src="assets/nav-img-1.jpeg" alt="imagen1" class="left-img left-img-1">
+                <img src="assets/nav-img-2.jpeg" alt="imagen2" class="left-img left-img-2">
+                <img src="assets/nav-img-3.jpeg" alt="imagen3" class="left-img left-img-3">
+            </div>
+
+            <div class="navbar-navigation-right">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="#" class="nav-list-link">Home</a></li>
+                    <li class="nav-list-item"><a href="#" class="nav-list-link">Acerca de</a></li>
+                    <li class="nav-list-item"><a href="#" class="nav-list-link">Galeria</a></li>
+                    <li class="nav-list-item"><a href="#" class="nav-list-link">Reservas</a></li>
+                    <li class="nav-list-item"><a href="#" class="nav-list-link">Servicios</a></li>
+                    <li class="nav-list-item"><a href="#" class="nav-list-link">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--fin navbar-->
+
+
     <!--header-->
     <header class="header">
         <div class="brand">
